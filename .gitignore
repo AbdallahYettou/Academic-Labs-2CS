@@ -1,0 +1,18 @@
+# System and notebook artifacts
+.DS_Store
+.codex
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments
+venv/
+
+# Large or regenerated datasets
+LabsBigData/Lab5/Data/*.jpg
+LabsBigData/Lab5/Data/**/*.jpg
+LabsBigData/Lab1/Lab1_Data/purchases.txt
+
+# Git cannot ignore files by size dynamically, so CSV files currently above 10 MB
+# are listed explicitly here.
+LabsBigData/Lab6/Lab6_Data/trip_data.csv
