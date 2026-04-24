@@ -1,0 +1,43 @@
+[2026-04-24 20:10:07,385] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2026-04-23T00:00:00+00:00 [queued]>
+[2026-04-24 20:10:07,397] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2026-04-23T00:00:00+00:00 [queued]>
+[2026-04-24 20:10:07,397] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2026-04-24 20:10:07,397] {taskinstance.py:1069} INFO - Starting attempt 1 of 1
+[2026-04-24 20:10:07,397] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2026-04-24 20:10:07,403] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): download_launches> on 2026-04-23T00:00:00+00:00
+[2026-04-24 20:10:07,406] {standard_task_runner.py:52} INFO - Started process 47 to run task
+[2026-04-24 20:10:07,410] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'download_rocket_launches', 'download_launches', '2026-04-23T00:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/tp9.py', '--cfg-path', '/tmp/tmp7y5vsyem', '--error-file', '/tmp/tmp9r_kbmbr']
+[2026-04-24 20:10:07,411] {standard_task_runner.py:77} INFO - Job 4: Subtask download_launches
+[2026-04-24 20:10:07,445] {logging_mixin.py:104} INFO - Running <TaskInstance: download_rocket_launches.download_launches 2026-04-23T00:00:00+00:00 [running]> on host 19afc48938a0
+[2026-04-24 20:10:07,479] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=download_rocket_launches
+AIRFLOW_CTX_TASK_ID=download_launches
+AIRFLOW_CTX_EXECUTION_DATE=2026-04-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2026-04-23T00:00:00+00:00
+[2026-04-24 20:10:07,480] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2026-04-24 20:10:07,480] {bash.py:158} INFO - Running command: curl -Lk "https://ll.thespacedevs.com/2.0.0/launch/upcoming" -o /opt/airflow/dags/tmp/launches.json
+[2026-04-24 20:10:07,488] {bash.py:169} INFO - Output:
+[2026-04-24 20:10:07,494] {bash.py:173} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2026-04-24 20:10:07,494] {bash.py:173} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2026-04-24 20:10:08,229] {bash.py:173} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+[2026-04-24 20:10:09,460] {bash.py:173} INFO -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0Warning: Failed to create the file /opt/airflow/dags/tmp/launches.json: No
+[2026-04-24 20:10:09,461] {bash.py:173} INFO - Warning: such file or directory
+[2026-04-24 20:10:09,461] {bash.py:173} INFO - 100  1360    0  1360    0     0    691      0 --:--:--  0:00:01 --:--:--  5887
+[2026-04-24 20:10:09,461] {bash.py:173} INFO - curl: (23) Failed writing body (0 != 1360)
+[2026-04-24 20:10:09,463] {bash.py:177} INFO - Command exited with return code 23
+[2026-04-24 20:10:09,475] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 180, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2026-04-24 20:10:09,478] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=download_rocket_launches, task_id=download_launches, execution_date=20260423T000000, start_date=20260424T201007, end_date=20260424T201009
+[2026-04-24 20:10:09,509] {local_task_job.py:146} INFO - Task exited with return code 1

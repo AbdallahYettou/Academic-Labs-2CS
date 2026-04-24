@@ -1,0 +1,211 @@
+[2026-04-24 20:09:46,155] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:09:46,155] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:09:46,156] {logging_mixin.py:104} INFO - [2026-04-24 20:09:46,156] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:09:46,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:09:46,198] {logging_mixin.py:104} INFO - [2026-04-24 20:09:46,198] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:09:46,209] {logging_mixin.py:104} INFO - [2026-04-24 20:09:46,209] {dag.py:1843} INFO - Creating ORM DAG for download_rocket_launches
+[2026-04-24 20:09:46,221] {logging_mixin.py:104} INFO - [2026-04-24 20:09:46,220] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-23 00:00:00+00:00
+[2026-04-24 20:09:46,232] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.080 seconds
+[2026-04-24 20:10:16,339] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:16,340] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:10:16,341] {logging_mixin.py:104} INFO - [2026-04-24 20:10:16,341] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:16,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:16,366] {logging_mixin.py:104} INFO - [2026-04-24 20:10:16,366] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:10:16,382] {logging_mixin.py:104} INFO - [2026-04-24 20:10:16,382] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:10:16,388] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.050 seconds
+[2026-04-24 20:10:46,423] {scheduler_job.py:182} INFO - Started process (PID=98) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:46,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:10:46,425] {logging_mixin.py:104} INFO - [2026-04-24 20:10:46,425] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:46,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:10:46,454] {logging_mixin.py:104} INFO - [2026-04-24 20:10:46,454] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:10:46,470] {logging_mixin.py:104} INFO - [2026-04-24 20:10:46,470] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:10:46,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.059 seconds
+[2026-04-24 20:11:16,627] {scheduler_job.py:182} INFO - Started process (PID=126) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:16,628] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:11:16,628] {logging_mixin.py:104} INFO - [2026-04-24 20:11:16,628] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:16,637] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:16,651] {logging_mixin.py:104} INFO - [2026-04-24 20:11:16,651] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:11:16,667] {logging_mixin.py:104} INFO - [2026-04-24 20:11:16,667] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:11:16,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.052 seconds
+[2026-04-24 20:11:46,730] {scheduler_job.py:182} INFO - Started process (PID=153) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:46,730] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:11:46,731] {logging_mixin.py:104} INFO - [2026-04-24 20:11:46,731] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:46,740] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:11:46,757] {logging_mixin.py:104} INFO - [2026-04-24 20:11:46,756] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:11:46,770] {logging_mixin.py:104} INFO - [2026-04-24 20:11:46,770] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:11:46,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.049 seconds
+[2026-04-24 20:12:16,927] {scheduler_job.py:182} INFO - Started process (PID=183) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:16,928] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:12:16,929] {logging_mixin.py:104} INFO - [2026-04-24 20:12:16,929] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:16,938] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:16,953] {logging_mixin.py:104} INFO - [2026-04-24 20:12:16,953] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:12:16,967] {logging_mixin.py:104} INFO - [2026-04-24 20:12:16,967] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:12:16,973] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.048 seconds
+[2026-04-24 20:12:47,806] {scheduler_job.py:182} INFO - Started process (PID=205) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:47,810] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:12:47,810] {logging_mixin.py:104} INFO - [2026-04-24 20:12:47,810] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:47,820] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:12:47,834] {logging_mixin.py:104} INFO - [2026-04-24 20:12:47,834] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:12:47,848] {logging_mixin.py:104} INFO - [2026-04-24 20:12:47,848] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:12:47,855] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.052 seconds
+[2026-04-24 20:13:18,758] {scheduler_job.py:182} INFO - Started process (PID=232) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:18,758] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:13:18,759] {logging_mixin.py:104} INFO - [2026-04-24 20:13:18,759] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:18,767] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:18,785] {logging_mixin.py:104} INFO - [2026-04-24 20:13:18,785] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:13:18,798] {logging_mixin.py:104} INFO - [2026-04-24 20:13:18,798] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:13:18,805] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.049 seconds
+[2026-04-24 20:13:49,697] {scheduler_job.py:182} INFO - Started process (PID=259) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:49,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:13:49,698] {logging_mixin.py:104} INFO - [2026-04-24 20:13:49,698] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:49,707] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:13:49,724] {logging_mixin.py:104} INFO - [2026-04-24 20:13:49,724] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:13:49,739] {logging_mixin.py:104} INFO - [2026-04-24 20:13:49,739] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:13:49,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.050 seconds
+[2026-04-24 20:14:19,836] {scheduler_job.py:182} INFO - Started process (PID=286) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:19,837] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:14:19,838] {logging_mixin.py:104} INFO - [2026-04-24 20:14:19,838] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:19,852] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:19,869] {logging_mixin.py:104} INFO - [2026-04-24 20:14:19,869] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:14:19,883] {logging_mixin.py:104} INFO - [2026-04-24 20:14:19,883] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:14:19,890] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.058 seconds
+[2026-04-24 20:14:49,927] {scheduler_job.py:182} INFO - Started process (PID=313) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:49,929] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:14:49,930] {logging_mixin.py:104} INFO - [2026-04-24 20:14:49,929] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:49,943] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:14:49,958] {logging_mixin.py:104} INFO - [2026-04-24 20:14:49,957] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:14:49,971] {logging_mixin.py:104} INFO - [2026-04-24 20:14:49,971] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:14:49,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.054 seconds
+[2026-04-24 20:15:20,040] {scheduler_job.py:182} INFO - Started process (PID=340) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:20,041] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:15:20,041] {logging_mixin.py:104} INFO - [2026-04-24 20:15:20,041] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:20,053] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:20,065] {logging_mixin.py:104} INFO - [2026-04-24 20:15:20,065] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:15:20,079] {logging_mixin.py:104} INFO - [2026-04-24 20:15:20,079] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:15:20,084] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.046 seconds
+[2026-04-24 20:15:50,173] {scheduler_job.py:182} INFO - Started process (PID=368) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:50,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:15:50,175] {logging_mixin.py:104} INFO - [2026-04-24 20:15:50,175] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:50,189] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:15:50,202] {logging_mixin.py:104} INFO - [2026-04-24 20:15:50,202] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:15:50,215] {logging_mixin.py:104} INFO - [2026-04-24 20:15:50,215] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:15:50,220] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.051 seconds
+[2026-04-24 20:16:20,247] {scheduler_job.py:182} INFO - Started process (PID=395) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:20,247] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:16:20,248] {logging_mixin.py:104} INFO - [2026-04-24 20:16:20,248] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:20,258] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:20,271] {logging_mixin.py:104} INFO - [2026-04-24 20:16:20,271] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:16:20,285] {logging_mixin.py:104} INFO - [2026-04-24 20:16:20,285] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:16:20,292] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.047 seconds
+[2026-04-24 20:16:50,331] {scheduler_job.py:182} INFO - Started process (PID=422) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:50,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:16:50,338] {logging_mixin.py:104} INFO - [2026-04-24 20:16:50,338] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:50,346] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:16:50,360] {logging_mixin.py:104} INFO - [2026-04-24 20:16:50,359] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:16:50,373] {logging_mixin.py:104} INFO - [2026-04-24 20:16:50,373] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:16:50,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.052 seconds
+[2026-04-24 20:17:20,436] {scheduler_job.py:182} INFO - Started process (PID=449) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:20,437] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:17:20,437] {logging_mixin.py:104} INFO - [2026-04-24 20:17:20,437] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:20,446] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:20,460] {logging_mixin.py:104} INFO - [2026-04-24 20:17:20,459] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:17:20,474] {logging_mixin.py:104} INFO - [2026-04-24 20:17:20,474] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:17:20,480] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.046 seconds
+[2026-04-24 20:17:50,529] {scheduler_job.py:182} INFO - Started process (PID=476) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:50,529] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:17:50,530] {logging_mixin.py:104} INFO - [2026-04-24 20:17:50,530] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:50,538] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:17:50,552] {logging_mixin.py:104} INFO - [2026-04-24 20:17:50,552] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:17:50,567] {logging_mixin.py:104} INFO - [2026-04-24 20:17:50,567] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:17:50,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.046 seconds
+[2026-04-24 20:18:20,641] {scheduler_job.py:182} INFO - Started process (PID=504) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:20,642] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:18:20,643] {logging_mixin.py:104} INFO - [2026-04-24 20:18:20,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:20,655] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:20,668] {logging_mixin.py:104} INFO - [2026-04-24 20:18:20,668] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:18:20,685] {logging_mixin.py:104} INFO - [2026-04-24 20:18:20,685] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:18:20,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.054 seconds
+[2026-04-24 20:18:51,430] {scheduler_job.py:182} INFO - Started process (PID=528) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:51,430] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:18:51,431] {logging_mixin.py:104} INFO - [2026-04-24 20:18:51,431] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:51,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:18:51,457] {logging_mixin.py:104} INFO - [2026-04-24 20:18:51,457] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:18:51,472] {logging_mixin.py:104} INFO - [2026-04-24 20:18:51,472] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:18:51,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.050 seconds
+[2026-04-24 20:19:22,298] {scheduler_job.py:182} INFO - Started process (PID=555) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:22,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:19:22,299] {logging_mixin.py:104} INFO - [2026-04-24 20:19:22,299] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:22,308] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:22,321] {logging_mixin.py:104} INFO - [2026-04-24 20:19:22,321] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:19:22,335] {logging_mixin.py:104} INFO - [2026-04-24 20:19:22,335] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:19:22,342] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.045 seconds
+[2026-04-24 20:19:53,345] {scheduler_job.py:182} INFO - Started process (PID=582) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:53,346] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:19:53,347] {logging_mixin.py:104} INFO - [2026-04-24 20:19:53,347] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:53,360] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:19:53,374] {logging_mixin.py:104} INFO - [2026-04-24 20:19:53,374] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:19:53,389] {logging_mixin.py:104} INFO - [2026-04-24 20:19:53,389] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:19:53,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.054 seconds
+[2026-04-24 20:20:24,275] {scheduler_job.py:182} INFO - Started process (PID=609) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:24,275] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:20:24,276] {logging_mixin.py:104} INFO - [2026-04-24 20:20:24,276] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:24,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:24,302] {logging_mixin.py:104} INFO - [2026-04-24 20:20:24,302] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:20:24,316] {logging_mixin.py:104} INFO - [2026-04-24 20:20:24,316] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:20:24,322] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.051 seconds
+[2026-04-24 20:20:55,231] {scheduler_job.py:182} INFO - Started process (PID=636) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:55,232] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:20:55,232] {logging_mixin.py:104} INFO - [2026-04-24 20:20:55,232] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:55,242] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:20:55,255] {logging_mixin.py:104} INFO - [2026-04-24 20:20:55,255] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:20:55,269] {logging_mixin.py:104} INFO - [2026-04-24 20:20:55,269] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:20:55,276] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.046 seconds
+[2026-04-24 20:21:26,232] {scheduler_job.py:182} INFO - Started process (PID=663) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:26,232] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:21:26,233] {logging_mixin.py:104} INFO - [2026-04-24 20:21:26,233] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:26,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:26,259] {logging_mixin.py:104} INFO - [2026-04-24 20:21:26,259] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:21:26,273] {logging_mixin.py:104} INFO - [2026-04-24 20:21:26,272] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:21:26,278] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.048 seconds
+[2026-04-24 20:21:57,098] {scheduler_job.py:182} INFO - Started process (PID=690) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:57,099] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:21:57,100] {logging_mixin.py:104} INFO - [2026-04-24 20:21:57,100] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:57,113] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:21:57,128] {logging_mixin.py:104} INFO - [2026-04-24 20:21:57,128] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:21:57,142] {logging_mixin.py:104} INFO - [2026-04-24 20:21:57,142] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:21:57,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.053 seconds
+[2026-04-24 20:22:28,033] {scheduler_job.py:182} INFO - Started process (PID=717) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:28,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:22:28,034] {logging_mixin.py:104} INFO - [2026-04-24 20:22:28,034] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:28,044] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:28,057] {logging_mixin.py:104} INFO - [2026-04-24 20:22:28,057] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:22:28,073] {logging_mixin.py:104} INFO - [2026-04-24 20:22:28,073] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:22:28,082] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.051 seconds
+[2026-04-24 20:22:58,944] {scheduler_job.py:182} INFO - Started process (PID=744) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:58,945] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:22:58,945] {logging_mixin.py:104} INFO - [2026-04-24 20:22:58,945] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:58,954] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:22:58,968] {logging_mixin.py:104} INFO - [2026-04-24 20:22:58,968] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:22:58,983] {logging_mixin.py:104} INFO - [2026-04-24 20:22:58,983] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:22:58,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.046 seconds
+[2026-04-24 20:23:29,838] {scheduler_job.py:182} INFO - Started process (PID=771) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:23:29,839] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:23:29,840] {logging_mixin.py:104} INFO - [2026-04-24 20:23:29,839] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:23:29,849] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:23:29,864] {logging_mixin.py:104} INFO - [2026-04-24 20:23:29,864] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:23:29,880] {logging_mixin.py:104} INFO - [2026-04-24 20:23:29,880] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:23:29,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.052 seconds
+[2026-04-24 20:24:00,734] {scheduler_job.py:182} INFO - Started process (PID=798) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:00,735] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:24:00,735] {logging_mixin.py:104} INFO - [2026-04-24 20:24:00,735] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:00,744] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:00,759] {logging_mixin.py:104} INFO - [2026-04-24 20:24:00,759] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:24:00,775] {logging_mixin.py:104} INFO - [2026-04-24 20:24:00,775] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:24:00,783] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.050 seconds
+[2026-04-24 20:24:31,759] {scheduler_job.py:182} INFO - Started process (PID=825) to work on /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:31,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/tp9.py for tasks to queue
+[2026-04-24 20:24:31,760] {logging_mixin.py:104} INFO - [2026-04-24 20:24:31,760] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:31,770] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/tp9.py
+[2026-04-24 20:24:31,786] {logging_mixin.py:104} INFO - [2026-04-24 20:24:31,785] {dag.py:1824} INFO - Sync 1 DAGs
+[2026-04-24 20:24:31,801] {logging_mixin.py:104} INFO - [2026-04-24 20:24:31,801] {dag.py:2280} INFO - Setting next_dagrun for download_rocket_launches to 2026-04-24 00:00:00+00:00
+[2026-04-24 20:24:31,807] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tp9.py took 0.050 seconds
