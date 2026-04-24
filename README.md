@@ -17,3 +17,4 @@ The Deep Learning labs include notebook-based practical work on model training, 
 ## Coursework Context
 
 This repository is maintained specifically for college coursework and academic lab submissions.
+# Academic-Labs-2CS
