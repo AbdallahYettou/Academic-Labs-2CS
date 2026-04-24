@@ -16,3 +16,8 @@ LabsBigData/Lab1/Lab1_Data/purchases.txt
 # Git cannot ignore files by size dynamically, so CSV files currently above 10 MB
 # are listed explicitly here.
 LabsBigData/Lab6/Lab6_Data/trip_data.csv
+
+# Local artifacts for Lab 8 streaming
+LabsBigData/lab8-streaming/data/
+LabsBigData/lab8-streaming/reportVf.md
+LabsBigData/lab8-streaming/image*.png
